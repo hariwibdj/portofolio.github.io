@@ -1,10 +1,10 @@
 <?php
-$am = 10;
+$am = 85;
 
-if(($am>=80) && ($am<=100)){
+if($am>=80 && $am<=100){
     $hm = "A";
-}elseif(($am>=75) && ($am <80)){
-    $hm ="A+";
+}elseif($am>=75 && $am <80){
+    $hm ="A-";
 }elseif(($am>=70) && ($am <75)){
     $hm ="B+";
 }elseif(($am>=65) && ($am <70)){
@@ -18,5 +18,5 @@ if(($am>=80) && ($am<=100)){
 }else{
     $hm = "T";
 }
-echo "$am dengan huruf mutu : ". $hm;
+echo "<h1>Angka Mutu : $am dengan huruf mutu : ". $hm."</h1>";
 ?>
